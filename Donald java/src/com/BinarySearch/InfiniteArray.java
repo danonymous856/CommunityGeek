@@ -8,10 +8,8 @@ public class InfiniteArray {
 
         int target=39;
 
-/*
         int ans=ans(nums,target);
         System.out.println(ans);
-*/
         System.out.println(ans(nums,target));
     }
 

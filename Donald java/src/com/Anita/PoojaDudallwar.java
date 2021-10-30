@@ -22,6 +22,7 @@ public static void main(String[] args) {
     int index=in.nextInt();
     System.out.println("Enter the new element: ");
     int ele=in.nextInt();
+
     int insert=insertion(arr,index,ele);
     System.out.println("result:"+arr);
 

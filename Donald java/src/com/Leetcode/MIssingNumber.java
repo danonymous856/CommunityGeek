@@ -1,12 +1,14 @@
 package com.Leetcode;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 import java.util.Scanner;
 
 public class MIssingNumber {
     public static void main(String[] args) {
         Scanner input=new Scanner(System.in);
-        int[] arr=new int[4];
+        int[] arr=new int[8];
 
         for (int i = 0; i < arr.length; i++) {
             arr[i]=input.nextInt();
@@ -14,6 +16,10 @@ public class MIssingNumber {
         System.out.print("initial array:"+Arrays.toString(arr)+"\n");
 
         System.out.print("Ans:"+missingNumber(arr));
+
+                //here is just for reminding the previous JAVA Algos
+        /*int target=intput.nextInt();
+        System.out.print("Binary search Ans:"+binarysearch(arr,target))*/
     }
 
     public static int missingNumber(int[] arr) {
@@ -28,6 +34,7 @@ public class MIssingNumber {
             }
 
             // search for first missing number
+
             for (int index = 0; index < arr.length; index++) {
                 if (arr[index] != index) {
                     return index;
@@ -83,3 +90,23 @@ public class MIssingNumber {
         }
     }*/
 }
+/*
+static void binarysearch(int[] arr,int target){
+    int start=0;
+    int end=arr.length-1;
+    while (start<end){
+        int mid=end+(start+end)/2;
+
+        if (target<arr[mid]){
+            end=mid-1;
+        }
+        else if (target>arr[mid]){
+            start=end+1;
+        }
+        else{
+            return arr.length;
+        }
+    }
+
+}
+*/

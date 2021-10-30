@@ -1,4 +1,4 @@
-package com.Anita;
+package com.Sorting;
 
 import java.util.Arrays;
 import java.util.Scanner;
