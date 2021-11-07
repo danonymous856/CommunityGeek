@@ -10,8 +10,9 @@ public class _1toN {
         if (n==0){
             return;
         }
-        System.out.println(n);
         _1toN(n-1);
+        System.out.println(n);
+
 
     }
 }
