@@ -14,7 +14,7 @@ public class PatternFirst {
     private static void pattern(int n) {
         for (int row = 0; row <= n; row++) {
             for (int col = 1; col <= row; col++) {
-                System.out.print(col + " ");//Take a fuckin care of to print not to println
+                System.out.print(col + " ");//Take a fuckin care of to "print" not to "println"
             }
         System.out.println();
         }

@@ -6,7 +6,7 @@ import java.util.Stack;
 
 public class VarArgs {
     public static void main(String[] args) {
-        Arr(2,5,"china","Donald","kris Wu","Shiganshina");
+        Arr(1,2,"china","Donald","kris Wu","Shiganshina","Nazar");
 //        System.out.println(ans);
     }
 

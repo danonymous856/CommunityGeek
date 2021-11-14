@@ -11,6 +11,7 @@ public class RecursiveBubbleSort {
             System.out.println("Please enter the the element of "+ i +"th index : ");
             arr[i]=in.nextInt();
         }
+//        int[] arr={2,1,5,4,6,3,7,8,9};
         System.out.println("Unsorted array : "+Arrays.toString(arr));
         bubble(arr,0, arr.length-1);
         System.out.println("Sorted : "+Arrays.toString(arr));

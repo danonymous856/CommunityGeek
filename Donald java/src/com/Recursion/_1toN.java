@@ -12,7 +12,5 @@ public class _1toN {
         }
         _1toN(n-1);
         System.out.println(n);
-
-
     }
 }
