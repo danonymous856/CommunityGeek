@@ -1,9 +1,12 @@
 package com.Recursion;
 
+import java.util.Scanner;
+
 public class ReverseNumbers {
     public static void main(String[] args) {
-
-        System.out.println(revNum(534156));
+        Scanner in=new Scanner(System.in);
+        System.out.println("enter the input: \n");
+        System.out.println(revNum(in.nextInt()));
     }
 
     private static int revNum(int n) {
@@ -11,7 +14,6 @@ public class ReverseNumbers {
         if (n==0){
             return n;
         }
-
         return (int) ((n%10)*Math.pow(10,countDigit(n)-1) + revNum(n/10));
     }
 
