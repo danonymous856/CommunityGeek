@@ -6,9 +6,10 @@ public class RecursiveFibonnnaci {
     public static void main(String[] args) {
         Scanner in=new Scanner(System.in);
         int n= in.nextInt();
-        for (int i = 0; i < n ; i++) {
-            System.out.println(Fibo(i));
-        }
+//        for (int i = 0; i < n ; i++) {
+//            System.out.println(Fibo(i));
+//        }
+        System.out.println(Fibo(n));
     }
 
     private static int Fibo(int n) {

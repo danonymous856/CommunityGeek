@@ -16,7 +16,6 @@ public class Loops {
         while (i<=5){
             System.out.println("greet");
             i++;
-
         }
     }
 }
