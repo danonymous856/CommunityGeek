@@ -4,7 +4,7 @@ public class BiSearch {
     public static void main(String[] args) {
         int[] nums={1,2,4,5,3,2,1};
         int target=3;
-        int ans=search(nums,target);
+        int ans = search(nums,target);
         System.out.println(ans);
     }
     static int search(int[] nums, int target) {
